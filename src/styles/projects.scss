@@ -1,0 +1,27 @@
+.images-slider {
+    overflow: hidden;
+    width: 100%;
+
+    .images-track {
+        display: flex;
+        gap: 12px;
+        animation: scroll-images 6s linear infinite;
+
+        &:hover {
+            animation-play-state: paused; 
+        }
+
+        img {
+            width: 200px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+    }
+}
+
+@keyframes scroll-images {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}

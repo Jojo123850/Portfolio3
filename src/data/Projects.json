@@ -1,15 +1,34 @@
 [
         {
     "id": 1,
-    "title": "Application de recettes",
-    "description": "Une application de recettes avec filtrage et recherche",
-    "image": "public/images/Abo.png"
+    "title": "Pokedex",
+    "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
+    "image1": "public/images/Abo.png",
+    "image2": "public/images/Abo.png",
+    "image3": "public/images/Abo.png",
+    "lienGthub":"https://github.com/Jojo123850/POKEDEX-python"
+
 },
 
 {
     "id": 2,
-    "title":"To-do list",
-    "description": "Liste de taches avec persistance locale",
-    "image": "public/images/Abra.png"
+    "title":"Blog CMS",
+   "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
+    "image1": "public/images/Abra.png",
+    "image2": "public/images/Abra.png",
+    "image3": "public/images/Abra.png",
+    "lien Github":"https://github.com/Jojo123850/BLOG-"
+},
+
+{
+    "id": 3,
+    "title":"Foncière Pagerie Malmaison",
+     "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
+    "image1": "public/images/Abra.png",
+    "image2": "public/images/Abra.png",
+    "image3": "public/images/Abra.png",
+    "lienGthub":"https://github.com/Jojo123850/projet-d-evaluation"
+
 }
+
 ]

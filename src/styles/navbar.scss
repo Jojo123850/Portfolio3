@@ -1,0 +1,11 @@
+nav{
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+}
+
+nav article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}

@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom';
-// import './Navbar.scss';
+import '../styles/navbar.scss';
 
 const Navbar = () => (
     <nav className="navbar">
-        <Link to="/">Giovanie ANDRIANIRINA</Link>
-       <Link to="/">Accueil</Link>
-       {/* <Link to="/projects">Projets</Link>
-       <Link to="/contact">Contact</Link> */}
+        <Link to="/">A propos de moi</Link>
+        <article>
+             <Link to="/Projects">Mes projets</Link>
+            <a href="projet-portfolio/public/images/CV Giovanie .pdf" download="Giovanie-CV.pdf">
+             Télécharger mon CV
+            </a>
+           
+        </article>
 
     </nav>
 );

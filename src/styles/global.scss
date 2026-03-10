@@ -1,0 +1,61 @@
+@import'./variables.scss';
+
+body{
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
+h2{
+    font-family: $font-stack;
+    padding-top: 40px;
+    color: #226D68;
+    font-size: xx-large;
+    text-align: center;
+}
+
+hr{
+    width: 400px;
+    
+}
+
+h3{
+    color: #18534F;
+     margin-top: 50px;
+    font-size: medium;
+    text-align: center;
+}
+
+.sectionclass{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    gap: 20px;
+   color: $second-color;
+   margin-bottom: 40px;
+}
+p{
+
+    color: $second-color;
+    width: 80%;
+}
+
+img{
+    margin-top: 20px;
+    width:80%;
+    height: 100%;
+}
+a{
+    color: #FFFFFF;
+    border-color: $button;
+    background-color: #226D68;
+    padding:$padding-link;
+    text-decoration: none;
+    border-radius: 1px solid;
+   
+
+}

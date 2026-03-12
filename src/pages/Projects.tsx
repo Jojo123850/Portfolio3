@@ -11,6 +11,7 @@ type Project = {
     image1: string;
     image2: string;
     image3: string;
+    Langages:string;
     lienGthub: string;
 };
 
@@ -32,10 +33,11 @@ const Projects = () => {
                             <ProjectsCard
                                 key={project.id}
                                 title={project.title}
+                                objectif={project.objectif}
                                 image1={project.image1}
                                 image2={project.image2}
                                 image3={project.image3}
-                                objectif={project.objectif}
+                                Langages={project.Langages}
                                 lienGthub={project.lienGthub}
 
                             />

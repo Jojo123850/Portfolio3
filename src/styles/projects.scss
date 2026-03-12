@@ -1,22 +1,57 @@
+
+@import './variables.scss';
+
 .images-slider {
     overflow: hidden;
     width: 100%;
+    padding: 24px 0;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 80px;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    &::before {
+        left: 0;
+        background: linear-gradient(to right, $cream, transparent);
+    }
+
+    &::after {
+        right: 0;
+        background: linear-gradient(to left, $cream, transparent);
+    }
 
     .images-track {
         display: flex;
-        gap: 12px;
-        animation: scroll-images 6s linear infinite;
+        gap: 24px;
+        width: max-content;
+        animation: scroll-images 60s linear infinite; // très lent
 
         &:hover {
-            animation-play-state: paused; 
+            animation-play-state: paused;
         }
 
         img {
-            width: 200px;
-            height: 140px;
+            width: 480px;       // grande largeur
+            height: 300px;      // grande hauteur
             object-fit: cover;
-            border-radius: 8px;
+            object-position: top; // montre le haut de l'image (le plus important)
+            border-radius: 12px;
             flex-shrink: 0;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+            &:hover {
+                transform: scale(1.02) translateY(-4px);
+                box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+            }
         }
     }
 }

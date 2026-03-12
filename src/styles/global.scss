@@ -23,104 +23,9 @@ main {
   margin: 0 auto;
   padding: 0 24px;
 }
-
-#section1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 0 40px;
-  position: relative;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 320px;
-    height: 120px;
-    background: radial-gradient(ellipse, rgba(34, 109, 104, 0.15) 0%, transparent 70%);
-    filter: blur(24px);
-    animation: pulse-blob 4s ease-in-out infinite;
-    pointer-events: none;
-  }
-}
-
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  font-weight: 700;
-  color: $teal-deep;
-  letter-spacing: -0.02em;
-  text-align: center;
-  position: relative;
-  animation: fadeSlideDown 0.7s ease both;
-
-  &::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: $accent;
-    margin: 12px auto 0;
-    border-radius: 2px;
-    transition: width $transition;
-  }
-
-  &:hover::after { width: 120px; }
-}
-
-h3 {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  color: $text-muted;
-  text-align: center;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-top: 16px;
-  animation: fadeSlideDown 0.7s 0.15s ease both;
-}
-
-hr { display: none; }
-
-#section2 {
-  padding: 40px 0 80px;
-}
-
-.sectionclass {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-  animation: fadeUp 0.8s 0.3s ease both;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-p {
-  font-size: 1.05rem;
-  line-height: 1.85;
-  color: $text-muted;
-  width: 100%;
-  position: relative;
-  padding-left: 20px;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 4px;
-    bottom: 4px;
-    width: 3px;
-    background: linear-gradient(to bottom, $teal-light, $teal-pale);
-    border-radius: 2px;
-  }
-}
+// title{
+//     font-size: 40px;
+// }
 
 a {
   display: inline-flex;
@@ -169,6 +74,132 @@ a {
 
   &:active { transform: translateY(0); }
 }
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0 40px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 120px;
+     background: radial-gradient(ellipse, rgba(34, 109, 104, 0.15) 0%, transparent 70%);
+    filter: blur(24px);
+    animation: pulse-blob 4s ease-in-out infinite;
+    pointer-events: none;
+  }
+}
+
+h2 {
+
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 700;
+  color: $teal-deep;
+  letter-spacing: -0.02em;
+  text-align: center;
+  position: relative;
+  animation: fadeSlideDown 0.7s ease both;
+  margin-top: 40px;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: $accent;
+    margin: 12px auto 0;
+    border-radius: 2px;
+    transition: width $transition;
+  }
+
+  &:hover::after { width: 120px; }
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: $text-muted;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 16px;
+  animation: fadeSlideDown 0.7s 0.15s ease both;
+}
+
+hr { 
+  display: none; 
+}
+
+#section2 {
+  padding: 40px 0 80px;
+}
+
+.sectionclass {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  animation: fadeUp 0.8s 0.3s ease both;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: $text-muted;
+  width: 100%;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 40px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 3px;
+    background: linear-gradient(to bottom, $teal-light, $teal-pale);
+    border-radius: 2px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 1.85;
+  color: black;
+  width: 100%;
+  position: relative;
+  padding-left: 20px;
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 3px;
+    background: linear-gradient(to bottom, $teal-light, $teal-pale);
+    border-radius: 2px;
+  }
+}
+
+
 
 .image-wrapper {
   position: relative;
@@ -231,6 +262,7 @@ footer {
   margin: auto;
   padding: 0 24px;
 }
+
 
 @keyframes fadeSlideDown {
   from { opacity: 0; transform: translateY(-20px); }

@@ -1,11 +1,15 @@
 import Navbar from '../components/Navbar.tsx'
 import Footer from '../components/Footer.tsx';
+import Interact from '../components/Boules.tsx';
 import '../styles/home.scss'
+import ParticlesEssai from '../components/ParticlesEssai.tsx';
+
 
 
 const Accueil = () => {
     return(
-          <>
+        <>
+        <ParticlesEssai /> 
         <header>
              <Navbar/>
         </header>
@@ -13,6 +17,7 @@ const Accueil = () => {
         <main>
             
                 <hr></hr>
+        <Interact/>
                 <section id='section1'>
                      <h2>MON PORTFOLIO</h2>
                      <h3>Présentation de mes dernières expériences</h3>
@@ -38,43 +43,36 @@ const Accueil = () => {
 
                 </section>
 
-                <section id='section3'>
+              
+                {/* <section id='section3'>
                 <h2>Expérience personnelles</h2>
                 <article>
-
                     <h4>Hackathon Orange & Nexta</h4>
-                    <p>Finaliste nationale parmi plus de 70 projets innovants. Création d’une solution numérique fonctionnelle en temps limité en équipe. Expérience en design thinking, élaboration de business plan et pratique du pitch de projet, Octobre 2021
-                    Madagascar.</p>
-                    
+                    <p>Finaliste nationale parmi plus de 70 projets innovants. Création d’une solution numérique fonctionnelle en temps limité en équipe.Octobre 2021
+                    Madagascar.</p>    
                 </article>
 
                     
                 <article>
-
-                
                     <h4>Youth Exchange - Erasmus+</h4>
-                    <p>Participation à un programme international axé sur les solutions numériques pour le changement climatique. Travail collaboratif avec des jeunes européens et pratique professionnelle de la langue anglaise,Juin - Août 2024.</p>
-                    
+                    <p>Participation à un programme international axé sur les solutions numériques pour le changement climatique.Juin - Août 2024.</p>    
                 </article>
                     
                 <article>
-
-               
                     <h4>Programme D-CLIC – SAYNA & OIF</h4>
-                    <p>Formation en développement web avec apprentissage collaboratif via Discord. Acquisition des bases du développement et obtention de certifications en bureautique et informatique, Février - Octobre 2023</p>
-                    
+                    <p>Formation en développement web avec apprentissage collaboratif via Discord. Février - Octobre 2023</p>    
                 </article>
 
                     
                 <article>
-
-                    <h4>CSAFIDI / AUF – Concours Application Mobile</h4>
-                    <p>Finaliste nationale pour un projet d’application mobile à impact social. Découverte du développement d’applications avec App Inventor et initiation à la conception d’outils numériques accessibles, Octobre 2021 - Février 2022
-                    Madagascar</p>
-                    
+                    <h4>SAFIDI / AUF – Concours Application Mobile</h4>
+                    <p>Finaliste nationale pour un projet d’application mobile à impact social.Octobre 2021 - Février 2022
+                    Madagascar</p>    
                 </article>
 
-                </section>
+                </section> */}
+
+
                
                 
            

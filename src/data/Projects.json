@@ -3,9 +3,9 @@
     "id": 1,
     "title": "Pokedex",
     "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
-    "image1": "public/images/Pokedex1.png",
-    "image2": "public/images/Pokedex2.png",
-    "image3": "public/images/Pokedex3.png",
+    "image1": "/images/Pokedex1.png",
+    "image2": "/images/Pokedex2.png",
+    "image3": "/images/Pokedex3.png",
     "Langages":"Python, Tkinter",
     "lienGthub":"https://github.com/Jojo123850/POKEDEX-python"
 
@@ -16,9 +16,9 @@
     "id": 2,
     "title": "Météo du Monde",
     "objectif":"Cette application web permet de consulter la météo en temps réel pour n'importe quelle ville dans le monde.",
-    "image1": "public/images/meteo1.png",
-    "image2": "public/images/meteo2.png",
-    "image3": "public/images/meteo1.png",
+    "image1": "/images/meteo1.png",
+    "image2": "/images/meteo2.png",
+    "image3": "/images/meteo1.png",
     "Langages":"HTML, CSS, JavaScript",
     "lienGthub":"https://github.com/Jojo123850/M-t-o"
 
@@ -27,9 +27,9 @@
     "id": 3,
     "title":"Blog CMS",
    "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
-    "image1": "public/images/Abra.png",
-    "image2": "public/images/Abra.png",
-    "image3": "public/images/Abra.png",
+    "image1": "/images/Abra.png",
+    "image2": "/images/Abra.png",
+    "image3": "/images/Abra.png",
     "Langages":"PHP, CSS",
     "lien Github":"https://github.com/Jojo123850/BLOG-"
 },
@@ -38,9 +38,9 @@
     "id": 4,
     "title":"Foncière Pagerie Malmaison",
      "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
-    "image1": "public/images/Abra.png",
-    "image2": "public/images/Abra.png",
-    "image3": "public/images/Abra.png",
+    "image1": "/images/Abra.png",
+    "image2": "/images/Abra.png",
+    "image3": "/images/Abra.png",
     "Langages":"HTML, CSS",
     "lienGthub":"https://github.com/Jojo123850/projet-d-evaluation"
 

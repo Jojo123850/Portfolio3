@@ -3,6 +3,7 @@ import Footer from '../components/Footer.tsx';
 import ProjectsCard from '../components/ProjectsCard';
 import '../styles/projects.scss';
 import data from '../data/projects.json';
+import ParticlesEssai from '../components/ParticlesEssai.tsx';
 
 type Project = {
     id: number;
@@ -21,10 +22,10 @@ const Projects = () => {
             <header>
                 <Navbar />
             </header>
-
             <main>
+            <ParticlesEssai/>
                 <section>
-                    <h2>Mes projets réalisés</h2>
+                    <h3>Mes projets réalisés</h3>
                 </section>
 
                 <section>

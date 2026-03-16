@@ -36,12 +36,12 @@
 
 {
     "id": 4,
-    "title":"Foncière Pagerie Malmaison",
-     "objectif":"L’application permet d’ajouter des Pokémon et d’enregistrer les données localement dans un fichier .txt, avec lecture et écriture de fichiers. Le projet met en œuvre la programmation orientée objet, la gestion des événements Tkinter, ainsi que la persistance des données via le système de fichiers.",
-    "image1": "/images/Abra.png",
-    "image2": "/images/Abra.png",
-    "image3": "/images/Abra.png",
-    "Langages":"HTML, CSS",
+    "title":"Number Drop",
+     "objectif":"Le jeu génère des chiffres aléatoires qui tombent à l'écran pendant un temps limité. L'utilisateur doit cliquer un maximum de chiffres avant la fin du chrono — le score final correspond à la somme de tous les nombres collectés. Le projet met en œuvre la manipulation du DOM, la gestion des événements JavaScript, ainsi que la logique de temporisation et de calcul dynamique.",
+    "image1": "/images/numb1.png",
+    "image2": "/images/numb2.png",
+    "image3": "/images/numb3.png",
+    "Langages":"HTML, CSS, JavaScript",
     "lienGthub":"https://github.com/Jojo123850/projet-d-evaluation"
 
 }

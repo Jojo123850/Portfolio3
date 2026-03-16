@@ -1,6 +1,8 @@
 
 @import './variables.scss';
 
+
+
 p {
   font-size: 1.05rem;
   line-height: 1.85;
@@ -10,38 +12,8 @@ p {
   padding-left: 20px;
   margin-bottom: 40px;
 
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 4px;
-    bottom: 4px;
-    width: 3px;
-    background: linear-gradient(to bottom, $teal-light, $teal-pale);
-    border-radius: 2px;
   }
-}
 
-h4 {
-  font-size: 20px;
-  line-height: 1.85;
-  color: black;
-  width: 100%;
-  position: relative;
-  padding-left: 20px;
-
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 4px;
-    bottom: 4px;
-    width: 3px;
-    background: linear-gradient(to bottom, $teal-light, $teal-pale);
-    border-radius: 2px;
-  }
-}
 .images-slider {
     overflow: hidden;
     width: 100%;

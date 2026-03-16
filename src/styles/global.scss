@@ -23,9 +23,7 @@ main {
   margin: 0 auto;
   padding: 0 24px;
 }
-// title{
-//     font-size: 40px;
-// }
+
 
 a {
   display: inline-flex;
@@ -151,11 +149,24 @@ hr {
   animation: fadeUp 0.8s 0.3s ease both;
 }
 
-// article {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 32px;
-// }
+.sectionclass2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  animation: fadeUp 0.8s 0.3s ease both;
+  margin-top: 30px;
+  
+}
+
+.sectionclass2 article{
+  border: 1px solid;
+  border-radius: 20px;
+  color:$accent ;
+  padding: 35px;
+  
+}
+
 
 
 

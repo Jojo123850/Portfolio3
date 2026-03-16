@@ -1,27 +1,5 @@
 @import './global.scss';
 
-
-p {
-  font-size: 1.05rem;
-  line-height: 1.85;
-  color: $text-muted;
-  width: 100%;
-  position: relative;
-  padding-left: 20px;
-  margin-bottom: 40px;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 4px;
-    bottom: 4px;
-    width: 3px;
-    background: linear-gradient(to bottom, $teal-light, $teal-pale);
-    border-radius: 2px;
-  }
-}
-
 h4 {
   font-size: 20px;
   line-height: 1.85;
@@ -39,47 +17,53 @@ h4 {
     bottom: 4px;
     width: 3px;
     
-p {
-  font-size: 1.05rem;
-  line-height: 1.85;
-  color: $text-muted;
-  width: 100%;
-  position: relative;
-  padding-left: 20px;
-  margin-bottom: 40px;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 4px;
-    bottom: 4px;
-    width: 3px;
-    background: linear-gradient(to bottom, $teal-light, $teal-pale);
-    border-radius: 2px;
   }
-}
+     border-radius: 2px;
+   }
 
-h4 {
-  font-size: 20px;
-  line-height: 1.85;
-  color: black;
-  width: 100%;
-  position: relative;
-  padding-left: 20px;
+   #formations{
+  margin-top: 70px;
+  left: 500px;
+  width: 60%;
+   }
+// p {
+//   font-size: 1.05rem;
+//   line-height: 1.85;
+//   color: $text-muted;
+//   width: 100%;
+//   position: relative;
+//   padding-left: 20px;
+//   margin-bottom: 40px;
+
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     top: 4px;
+//     bottom: 4px;
+//     width: 3px;
+//     border-radius: 2px;
+//   }
+// }
+  
+
+// h4 {
+//   font-size: 20px;
+//   line-height: 1.85;
+//   color: black;
+//   width: 100%;
+//   position: relative;
+//   padding-left: 20px;
 
 
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 4px;
-    bottom: 4px;
-    width: 3px;
-    background: linear-gradient(to bottom, $teal-light, $teal-pale);
-    border-radius: 2px;
-  }
-}
-    border-radius: 2px;
-  }
-}
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     top: 4px;
+//     bottom: 4px;
+//     width: 3px;
+//     background: linear-gradient(to bottom, $teal-light, $teal-pale);
+//     border-radius: 2px;
+//   }
+

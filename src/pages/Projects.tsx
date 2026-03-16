@@ -20,11 +20,11 @@ const Projects = () => {
     return (
         <>
             <header>
-                <Navbar />
+              <a href="/">Retour</a>
             </header>
             <main>
-            <ParticlesEssai/>
                 <section>
+            <ParticlesEssai/>
                     <h3>Mes projets réalisés</h3>
                 </section>
 

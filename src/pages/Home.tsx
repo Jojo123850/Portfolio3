@@ -44,38 +44,50 @@ const Accueil = () => {
                 </section>
 
               
-                {/* <section id='section3'>
+                 <section id='section3'>
                 <h2>Expérience personnelles</h2>
+
+                <div className='sectionclass2'>
                 <article>
                     <h4>Hackathon Orange & Nexta</h4>
-                    <p>Finaliste nationale parmi plus de 70 projets innovants. Création d’une solution numérique fonctionnelle en temps limité en équipe.Octobre 2021
-                    Madagascar.</p>    
+                    <p>Finaliste nationale parmi plus de 70 projets innovants. Création d’une solution numérique fonctionnelle en temps limité en équipe, <span>Octobre 2021
+                    Madagascar</span></p>    
                 </article>
 
                     
                 <article>
                     <h4>Youth Exchange - Erasmus+</h4>
-                    <p>Participation à un programme international axé sur les solutions numériques pour le changement climatique.Juin - Août 2024.</p>    
+                    <p>Participation à un programme international axé sur les solutions numériques pour le changement climatique. <span>Juin - Août 2024, Madagascar</span> </p>    
                 </article>
                     
                 <article>
                     <h4>Programme D-CLIC – SAYNA & OIF</h4>
-                    <p>Formation en développement web avec apprentissage collaboratif via Discord. Février - Octobre 2023</p>    
+                    <p>Formation en développement web avec apprentissage collaboratif via Discord.  <span> Février - Octobre 2023, Madagascar</span></p>    
                 </article>
 
                     
                 <article>
                     <h4>SAFIDI / AUF – Concours Application Mobile</h4>
-                    <p>Finaliste nationale pour un projet d’application mobile à impact social.Octobre 2021 - Février 2022
-                    Madagascar</p>    
+                    <p>Finaliste nationale pour un projet d’application mobile à impact social. <span>Octobre 2021 - Février 2022, Madagascar</span>        
+                    </p>    
                 </article>
 
-                </section> */}
+                </div>
 
+                </section> 
+                <section>
+                    <div className='sectionclass3'>
+                        <h2 id='formations'>CE QUE J'AI APPRIS, CE QUE JE SAIS FAIRE</h2>
 
-               
-                
-           
+                        
+                    </div>
+                </section>
+
+                <section>
+                    <div>
+                        <p>Envoie moi un email <a href="mailto:giovanieandrianirina@gmail.com">Ici</a></p>
+                    </div>
+                </section>          
         </main>
 
         <Footer/>

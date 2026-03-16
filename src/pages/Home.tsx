@@ -28,12 +28,6 @@ const Accueil = () => {
                     <article>
                          <p>Salut ! Je suis Giovanie, développeuse web et web mobile en formation. Curieuse et engagée, j’aime utiliser la technologie pour créer des solutions utiles et innovantes. Avant de me lancer dans le développement, je me suis investie dans des projets liés à l’environnement et à l’engagement associatif. Aujourd’hui, je combine cette sensibilité avec le code pour imaginer des applications qui ont un impact positif. Chaque projet est pour moi une occasion d’apprendre, de créer et de repousser mes limites afin de transformer des idées en expériences digitales modernes.</p>
                         <a href="/Projects">Explorer mes projets</a>
-                        {/* <div id='profil'>
-                            
-                            <a href="https://github.com/Jojo123850"><i className="fa-brands fa-github"></i></a>
-                          
-                            <a href="nkedin.com/in/giovanie-andrianirina-7b397926a/"><i className="fa-brands fa-linkedin"></i></a>
-                        </div> */}
                     </article>
                     <article className='art'>
                         <img src="/images/Profil.png" alt="image" />
@@ -75,19 +69,32 @@ const Accueil = () => {
                 </div>
 
                 </section> 
-                <section>
-                    <div className='sectionclass3'>
-                        <h2 id='formations'>CE QUE J'AI APPRIS, CE QUE JE SAIS FAIRE</h2>
+          <section>
+            <div className='sectionclass3'>
+                <h2 id='formations'>Ce que j'ai appris, ce que je sais faire</h2>
 
-                        
-                    </div>
-                </section>
+                <div className='cards-grid'>
+                <article>
+                    <p>Développement Web et Web mobile</p>
+                </article>
+                <article>
+                    <p>Licence en Environnement</p>
+                </article>
+                <article>
+                    <p>Diplôme Approfondi de Langue Française (DALF C1)</p>
+                </article>
+                </div>
+            </div>
+        </section>
 
-                <section>
+            <section className='sectionclass4'>
                     <div>
-                        <p>Envoie moi un email <a href="mailto:giovanieandrianirina@gmail.com">Ici</a></p>
+                        <p>Contacte moi ici</p>
+                        <a className='contact' href="mailto:giovanieandrianirina@gmail.com">
+                        giovanieandrianirina@gmail.com
+                        </a>
                     </div>
-                </section>          
+            </section>         
         </main>
 
         <Footer/>

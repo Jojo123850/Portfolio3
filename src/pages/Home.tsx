@@ -75,13 +75,16 @@ const Accueil = () => {
 
                 <div className='cards-grid'>
                 <article>
-                    <p>Développement Web et Web mobile</p>
+                    <h3>Développement Web et Web mobile</h3>
+                    <img src="/images/background.png" alt="devWeb" />
                 </article>
                 <article>
-                    <p>Licence en Environnement</p>
+                    <h3>Licence en Environnement</h3>
+                    <img src="/images/essai.png" alt="devWeb" />
                 </article>
                 <article>
-                    <p>Diplôme Approfondi de Langue Française (DALF C1)</p>
+                    <h3>DALF C1</h3>
+                    <img src="/images/background.png" alt="devWeb" />
                 </article>
                 </div>
             </div>
@@ -89,7 +92,7 @@ const Accueil = () => {
 
             <section className='sectionclass4'>
                     <div>
-                        <p>Contacte moi ici</p>
+                       <h2>CONTACTE MOI ICI</h2>
                         <a className='contact' href="mailto:giovanieandrianirina@gmail.com">
                         giovanieandrianirina@gmail.com
                         </a>

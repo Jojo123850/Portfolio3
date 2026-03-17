@@ -1,4 +1,3 @@
-import Navbar from '../components/Navbar.tsx';
 import Footer from '../components/Footer.tsx';
 import ProjectsCard from '../components/ProjectsCard';
 import '../styles/projects.scss';

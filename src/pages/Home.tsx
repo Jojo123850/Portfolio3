@@ -76,15 +76,15 @@ const Accueil = () => {
                 <div className='cards-grid'>
                 <article>
                     <h3>Développement Web et Web mobile</h3>
-                    <img src="/images/background.png" alt="devWeb" />
+                   <img className='format' src="/images/essai.png" alt="devWeb" />
                 </article>
                 <article>
                     <h3>Licence en Environnement</h3>
-                    <img src="/images/essai.png" alt="devWeb" />
+                    <img className='format0'  src="/images/essai.png" alt="devWeb" />
                 </article>
                 <article>
                     <h3>DALF C1</h3>
-                    <img src="/images/background.png" alt="devWeb" />
+                  <img className='format2' src="/images/essai.png" alt="devWeb" />
                 </article>
                 </div>
             </div>

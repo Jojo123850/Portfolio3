@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, objectif, image1, imag
             </div>
         </div>
             <a href={lienGthub} target="_blank" rel="noreferrer">
-                Github
+             Voir le projet
             </a>
     </div>
 );

@@ -44,6 +44,30 @@
     "Langages":"HTML, CSS, JavaScript",
     "lienGthub":"https://github.com/Jojo123850/projet-d-evaluation"
 
+},
+
+{
+    "id": 5,
+    "title":"Page de notification",
+     "objectif":"Réalisation d'un composant de notifications en React intégrant une gestion d'état des messages lus et non lus. L'utilisateur peut marquer toutes les notifications comme lues en un clic, ce qui réinitialise le compteur en temps réel. L'interface est entièrement responsive et soignée, avec des états hover et focus sur chaque élément interactif. Un exercice orienté pixel-perfect à partir d'un design imposé.",
+    "image1": "/images/notifications3.PNG",
+    "image2": "/images/notifications2.PNG",
+    "image3": "/images/notifications.PNG",
+    "Langages":"HTML, SCSS, JavaScript, React,",
+    "lienGthub":"https://notifications-page-main-rho.vercel.app/"
+
+},
+
+{
+    "id": 6,
+    "title":"Graphique en barre",
+     "objectif":"Développement d'un composant de graphique en barres en React, avec des données chargées dynamiquement depuis un fichier JSON local. Chaque barre affiche le montant correspondant au survol, et le jour actuel est mis en évidence par une couleur distincte. L'interface est responsive et adaptée à toutes les tailles d'écran, avec des états hover soignés sur chaque élément interactif. Un exercice axé sur la visualisation de données dynamiques et l'intégration fidèle d'un design fourni.",
+     "image1": "/images/graphique4.png",
+    "image2": "/images/graphique4.png",
+      "image3": "/images/graphique4.png",
+    "Langages":"HTML, SCSS, JavaScript, React,Rechart",
+    "lienGthub":"https://expenses-chart-component-main-silk.vercel.app/"
+
 }
 
 ]

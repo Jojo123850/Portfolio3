@@ -6,7 +6,7 @@ const Navbar = () => (
         <Link to="/">A propos de moi</Link>
         <article>
              <Link to="/Projects">Mes projets</Link>
-            <a href="projet-portfolio/public/images/CV Giovanie .pdf" download="Giovanie-CV.pdf">
+            <a href="/images/CV-Giovanie.pdf" download="Giovanie-CV.pdf">
              Télécharger mon CV
             </a>
            
